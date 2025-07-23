@@ -13,7 +13,7 @@ body {
 }
 
 /* Breathing feather */
-.feather {
+#feather {
   width: 602px;
   height: 430px;
   animation: breathe 7s ease-in-out infinite;

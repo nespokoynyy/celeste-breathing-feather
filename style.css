@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background-color: #1E1E2F;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Breathing feather */
+.feather {
+  width: 602px;
+  height: 430px;
+  animation: breathe 7s ease-in-out infinite;
+}
+
+@keyframes breathe {
+  0% {
+    transform: translateY(-50px) rotate(1deg)
+  }
+  50% {
+    transform: translateY(50px) rotate(-1deg)
+  }
+  100% {
+     transform: translateY(-50px) rotate(1deg)
+  }
+}
